@@ -31,3 +31,9 @@ jobs:
       - name: Unit test
         run: |
           echo "Easy test addition step"
+  custom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Unit test
+        run: bash ../../sample.sh

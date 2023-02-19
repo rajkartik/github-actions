@@ -1,0 +1,1 @@
+echo  "yo this is from script file"
